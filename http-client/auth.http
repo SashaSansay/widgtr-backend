@@ -1,0 +1,19 @@
+### регистрация
+POST {{base-url}}:{{port}}/auth/register
+Content-Type: application/json
+
+{
+  "email": "sashasansay@gmail.com",
+  "password": "123123",
+  "firstName": "first name",
+  "lastName": "last name"
+}
+
+### авторизация
+POST {{base-url}}:{{port}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "sashasansay@gmail.com",
+  "password": "123123"
+}

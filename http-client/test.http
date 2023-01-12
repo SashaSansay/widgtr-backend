@@ -1,0 +1,11 @@
+### тестовая ручка
+GET {{base-url}}:{{port}}/
+Content-Type: application/json
+
+{}
+
+### Все виджеты
+GET {{base-url}}:{{port}}/api/v1/widgets
+Content-Type: application/json
+
+{}

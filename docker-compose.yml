@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  mongo:
+    image: mongo:4.2
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "27017:${DOCKER_MONGO_PORT}"
